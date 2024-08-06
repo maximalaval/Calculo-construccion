@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeros pasos JS</title>
+
+    <!--relacion archivo JS-->
+    <script async src="./js/scripct.js"></script>
+</head>
+
+
+<body>
+
+<div class="container">
+    <h1>Calculadora de Construcción</h1>
+    <div class="form-group">
+        <label for="metrosCuadrados">Metros Cuadrados a Construir:</label>
+        <input type="number" id="metrosCuadrados">
+    </div>
+    <div class="form-group">
+        <label for="materialPorMetro">Cantidad de Material por Metro Cuadrado:</label>
+        <input type="number" id="materialPorMetro">
+    </div>
+    <div class="form-group">
+        <label for="paredes">Cantidad de Paredes a Levantar:</label>
+        <input type="number" id="paredes">
+    </div>
+    <button onclick="calcularMateriales()">Calcular Materiales</button>
+    <div class="result" id="resultado"></div>
+</div>
+
+
+</body>
+</html>
